@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    width: 60%;
+    padding-bottom: 0;
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(147, 139, 145);   
+}
+.toolbox-cont{
+    background-color:#4b4b4b;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-priority-cont{
+   background-color:#3d3d3d ;
+   display: flex;
+   width: 300px;
+   height:70px;
+   margin-left: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color{
+    height: 40px;
+    width: 30px;
+    background-color: aqua;
+
+}
+.color:hover{
+    background-color: #485460;
+}
+.lightpink{
+    background-color: lightpink;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.black{
+background-color: black;
+}
+.action-btn-cont{
+    background-color: #3d3d3d;
+    display: flex;
+    height: 40px;
+    width:100px;
+    margin-left: 30px;
+}
+
+.add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:30px;
+    width: 50px;
+}
+
+
+.add-btn:hover{
+   background-color: #4bb543;
+}
+
+.remove-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:30px;
+    width: 50%;
+}
+.remove-btn:hover{
+    background-color: #4bb543;
+}
+
+.priority-color{
+    height: 50px;
+    width: 80px;
+}
+.active{
+    border: 5px solid lightsalmon;
+}
+.modal-cont{
+    display: flex;
+    height: 50vh;
+    width: 45vw;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.text-cont{
+    width: 75%;
+    outline: none;
+    height: 100%;
+    background-color: lightgray;
+    resize: none;
+    border:none;
+    font-size: 32px;
+}
+
+.priority-color-cont{
+    display: flex;
+    width:25%;
+    height: 100%;
+    background-color: lightslategray;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.ticket-cont{
+    height: 192px;
+    width: 200px;
+    background-color: coral;
+    position: relative;
+}
+
+.ticket-color{
+    height: 16px;
+}
+
+.ticket-ID{
+    height: 32px;
+    background-color: yellow;
+}
+
+.ticket-lock{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
